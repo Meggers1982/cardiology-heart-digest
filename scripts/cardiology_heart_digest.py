@@ -369,21 +369,18 @@ For each study below, return a single JSON array. Each object must have exactly 
   "doi": "doi or empty string",
   "groundbreaking": "one or more of: Counterintuitive finding / Overturns prior research / First-in-class human study / Major cardiovascular or public health implication",
   "media_coverage": "{media_note}",
-  "summary": "2-4 sentences: what researchers did, who participated (N=X, age range, cardiac history if relevant), key finding in plain language — verified against abstract",
-  "why_it_matters": "1-2 sentences of real-world significance for people concerned about heart health. Do NOT imply clinical action.",
+  "summary": "3 sentences max: what researchers did, who participated (N=X, age range, cardiac history if relevant), key finding in plain language — verified against abstract",
+  "why_it_matters": "1 sentence max. of real-world significance for people concerned about heart health. Do NOT imply clinical action.",
   "caveats": "comma-separated flags: small sample (N<100), observational design, single-center, self-reported outcomes, short follow-up, industry funding [name], preprint, secondary analysis, surrogate endpoints only, animal or cell study — or 'None identified'",
-  "fact_check_note": "Describe any corrections made vs what the abstract actually says, or empty string",
-  "excluded": false,
+  "fact_check_note": "Corrections only — if all claims match the abstract write empty string. No 'Abstract confirms...' phrasing.",
   "relevance_score": 7,
-  "relevance_score_reason": "One sentence explaining the score — what makes it strong or weak for cardiovascular journalism",
+  "relevance_score_reason": "Max 15 words: topic fit and study quality.",
   "pitch_angles": [
     {{
       "publication_type": "e.g. Everyday Health / AARP / Prevention / NYT Health / STAT News / Medscape Cardiology / General health",
       "headline": "Publication-appropriate headline",
       "hook": "One sentence opening leading with the surprising or significant finding",
-      "why_it_fits": "One sentence on why readers of this publication would care",
-      "pitch_angle": "2-3 sentence commissioning pitch: what happened, why it matters for heart health, broader lifestyle or clinical significance",
-      "caveats_to_flag": "Limitations the journalist should acknowledge"
+      "pitch_angle": "2 sentences max: what happened, why it matters for heart health, broader lifestyle or clinical significance"
     }}
   ]
 }}
