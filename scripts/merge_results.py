@@ -15,7 +15,7 @@ from pathlib import Path
 
 RESEND_KEY    = os.environ.get("RESEND_API_KEY", "")
 FROM_EMAIL    = os.environ.get("FROM_EMAIL", "onboarding@resend.dev")
-RECIPIENT     = os.environ.get("RECIPIENT_EMAIL", "REDACTED@example.com")
+RECIPIENT     = os.environ.get("RECIPIENT_EMAIL", "")
 DASHBOARD_URL = os.environ.get("DASHBOARD_URL", "")
 
 ARTIFACTS_DIR = Path("/tmp/artifacts")

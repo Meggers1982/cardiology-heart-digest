@@ -11,7 +11,7 @@ Required environment variables:
 
 Optional environment variables:
   SERPAPI_KEY         — SerpAPI key (skips news filter if not set)
-  RECIPIENT_EMAIL     — Override recipient (default: REDACTED@example.com)
+  RECIPIENT_EMAIL     — Digest recipient address
   FROM_EMAIL          — Verified Resend sender (default: onboarding@resend.dev)
   CATEGORIES          — Comma-separated category names or "all" (default: all)
   TOPIC_FOCUS         — Optional topic to narrow the search
@@ -41,7 +41,7 @@ ANTHROPIC_KEY    = os.environ["ANTHROPIC_API_KEY"]
 SERPAPI_KEY      = os.environ.get("SERPAPI_KEY", "")
 RESEND_KEY       = os.environ["RESEND_API_KEY"]
 FROM_EMAIL       = os.environ.get("FROM_EMAIL", "onboarding@resend.dev")
-RECIPIENT        = os.environ.get("RECIPIENT_EMAIL", "REDACTED@example.com")
+RECIPIENT        = os.environ["RECIPIENT_EMAIL"]
 CATEGORIES_INPUT = os.environ.get("CATEGORIES", "all")
 TOPIC_FOCUS      = os.environ.get("TOPIC_FOCUS", "").strip()
 CHUNK_INDEX      = int(os.environ.get("CHUNK_INDEX", "1"))
