@@ -17,7 +17,7 @@ A GitHub Actions workflow that searches curated cardiovascular medicine, hematol
 
 Features:
 - Card view per study with headline, summary, caveats, fact-check notes
-- Expandable pitch angles section for publications such as Everyday Health, Healthline, Prevention, WebMD, Heart.org, STAT, MedPage Today, and general health outlets
+- Expandable pitch angles section for publications such as Everyday Health, AARP The Magazine, Prevention, Health.com, Verywell Health, EatingWell, Women's Health Magazine, The New York Times (Health), STAT News, MedPage Today, Medscape Cardiology, and general health outlets
 - Filter by category, groundbreaking type, status, date range, and score
 - Search across all study text and pitches
 - Status tracking (New / Saved / Pitched / Passed) saved to localStorage

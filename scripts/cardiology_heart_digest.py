@@ -411,7 +411,7 @@ Abstract: {s['abstract']}
 
     prompt = f"""You are a science writer and editor for a Cardiology & Heart Health Research Digest, writing for a journalist audience covering cardiovascular medicine, heart disease, stroke, blood disorders, vascular health, and pulmonary medicine.
 
-Your readers pitch to publications like Everyday Health, AARP The Magazine, Prevention, The New York Times (Health), STAT News, Medscape Cardiology, and general health outlets covering the heart and cardiovascular system.
+Your readers pitch to publications like Everyday Health, AARP The Magazine, Prevention, Health.com, Verywell Health, EatingWell, Women's Health Magazine, The New York Times (Health), STAT News, MedPage Today, Medscape Cardiology, and general health outlets covering the heart and cardiovascular system.
 
 For each study below, return a single JSON array. Each object must have exactly these keys:
 
@@ -431,7 +431,7 @@ For each study below, return a single JSON array. Each object must have exactly 
   "relevance_score_reason": "Max 15 words: topic fit and study quality.",
   "pitch_angles": [
     {{
-      "publication_type": "e.g. Everyday Health / AARP / Prevention / NYT Health / STAT News / Medscape Cardiology / General health",
+      "publication_type": "e.g. Everyday Health / AARP / Prevention / Health.com / Verywell Health / EatingWell / Women's Health / NYT Health / STAT News / MedPage Today / Medscape Cardiology / General health",
       "headline": "Publication-appropriate headline",
       "hook": "One sentence opening leading with the surprising or significant finding",
       "pitch_angle": "2 sentences max: what happened, why it matters for heart health, broader lifestyle or clinical significance"
